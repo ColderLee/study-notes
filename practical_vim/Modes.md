@@ -39,7 +39,7 @@ Vim's Operator Mode
 |----------------------|-------------------------------------------------------------:|
 | <C-r>{register}      | insert with indent.                                          |
 | <C-r><C-p>{register} | inserts text literally and fixes any unintended indentation. |
-| <C-r>=6*35<CR>       | do the math in vim.                                          |
+| <C-r>=6\*35<CR>       | do the math in vim.                                          |
 | <C-v>{code}          | insert character with unicode, ex: <C-v>065                  |
 | ga                   | show numeric code under current cursor.                      |
 

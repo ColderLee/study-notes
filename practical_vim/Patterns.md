@@ -20,8 +20,8 @@ three types of brackets:
 - curly braces: escape only the opening member of the pair. leave the closing brace unescaped. 
 
 - 'very magic' search(\v): all characters assume a special meaning,
-with the exception of “_”, uppercase and lowercase letters, and the digits 0 through 9.
-- verynomagic literal(\V) : most of the special meanings attached to characters such as ., *, and ?.
+with the exception of “\_”, uppercase and lowercase letters, and the digits 0 through 9.
+- verynomagic literal(\V) : most of the special meanings attached to characters such as ., \*, and ?.
 
 ```
 # has no special meaning and is matched literally
